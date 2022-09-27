@@ -16,6 +16,9 @@ public class LambokStudent {
 		Session ses=sf.openSession();
 		ses.beginTransaction();
 		Student s1=new Student();
+		//s1.setStId(101)
+		//s1.stName("ganesha");
+		//s1.stCourse("MCA");
 		
 		ses.getTransaction().commit();
 		
